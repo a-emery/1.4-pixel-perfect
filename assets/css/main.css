@@ -450,7 +450,7 @@ p {
 .most-popular-posts-title {
   border-top: thin solid rgba(225, 231, 235, 1);
   text-align: center;
-  margin: 55px 0 0 0;
+  margin: 55px 0 30px 0;
   padding: 23px 0 0 0;
   font-size: 3.965rem;
   font-family: "Oswald", helvetica, sans-serif;
@@ -468,22 +468,80 @@ p {
 .most-popular-post {
   margin: 0;
   padding: 0;
-  height: 305px;
-  width: 300px;
-  background: blue;
+  height: 329px;
+  width: 325px;
   font-size: 1rem;
   position: relative;
 }
 
+.most-popular-post::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(40, 109, 179, .8);
+  transition: all .5s ease;
+}
+
+.most-popular-post:hover .most-popular-post-text{
+  color: white;
+  transition: all .5s ease;
+}
+
+.most-popular-post:hover::before {
+  background: none;
+  transition: all .5s ease;
+}
+
 .most-popular-post-one {
-  background-image: url(../img);
+  background-image: url(../img/surfer.jpeg);
+  background-size: cover;
 }
 
 .most-popular-post-two {
+  background-image: url(../img/beer.jpg);
+  background-size: cover;
+}
 
+.most-popular-post-three {
+  background-image: url(../img/galifianakis.jpg);
+  background-size: cover;
+}
+
+.most-popular-post-four {
+  background-image: url(../img/bar.jpg);
+  background-size: cover;
 }
 
 .most-popular-post-text {
   position: absolute;
   bottom: 0;
+  padding: 0 20px 7px 15px;
+  margin: 0;
+  font-size: 1.85rem;
+  font-weight: normal;
+  font-family: "Oswald", helvetica, sans-serif;
+  color: rgba(16, 52, 81, 1);
+  transition: all .5s ease;
+}
+
+.most-popular-post-text-two {
+  padding-left: 16px;
+}
+
+.most-popular-post-text-three {
+  padding: 0 20px 14px 18px;
+  line-height: 2.3rem;
+}
+
+.most-popular-post-text-four {
+  padding-left: 20px;
+}
+
+.footer {
+  margin: -5px 0 0 0;
+  background-color: rgba(16, 52, 81, 1);
+  height: 98px;
 }
