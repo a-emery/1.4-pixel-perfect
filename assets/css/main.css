@@ -783,13 +783,14 @@ p {
   }
 
   .nav {
+    width: 320px;
     padding: 30px;
     margin: 0;
     float: inherit;
   }
 
   .nav-item {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   .nav-break-disappear {
@@ -818,10 +819,5 @@ p {
   .copyright-line-two {
     display: block;
   }
-
-
-  }
-
-
 
 }
