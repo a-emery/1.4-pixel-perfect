@@ -600,6 +600,10 @@ p {
   top: -1px;
 }
 
+.tiy-mobile {
+  display: none;
+}
+
 @media (max-width: 480px) {
   body {
     width: auto;
@@ -723,7 +727,7 @@ p {
   .author-social-wrapper {
     display: block;
     text-align: center;
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
   }
 
   .author-social-name {
@@ -749,5 +753,75 @@ p {
   .most-popular-posts-title {
     font-size: 2.5rem;
   }
+
+  .most-popular-posts-list {
+    display: block;
+  }
+
+  .most-popular-posts {
+    margin-bottom: 50px;
+  }
+
+  .most-popular-post {
+    display: block;
+    width: 92%;
+    margin: 15px 4%;
+  }
+
+  .tiy {
+    display: none;
+  }
+
+  .tiy-mobile {
+    display: block;
+    text-align: center;
+  }
+
+  .footer {
+    height: 225px;
+    text-align: center;
+  }
+
+  .nav {
+    padding: 30px;
+    margin: 0;
+    float: inherit;
+  }
+
+  .nav-item {
+    font-size: 1.3rem;
+  }
+
+  .nav-break-disappear {
+    display: none;
+  }
+
+  .tiylogo {
+    display: block;
+    margin: 0 auto;
+    height: 45px;
+    width: 52px;
+  }
+
+  .copyright {
+    margin-top: 5px;
+  }
+
+  .copyright-line-one {
+    display: block;
+  }
+
+  .disappear {
+    display: none;
+  }
+
+  .copyright-line-two {
+    display: block;
+  }
+
+
+  }
+
+
 
 }
