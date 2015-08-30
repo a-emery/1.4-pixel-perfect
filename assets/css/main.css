@@ -663,15 +663,91 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     display: block;
+    position: relative;
   }
 
   .article-title {
-    font-size: 3rem;
-    line-height: 3.4rem;
+    font-size: 2.75rem;
+    line-height: 3.3rem;
   }
 
   .article-heading {
     padding: 0;
+  }
+
+  .article-author-img-wrapper {
+    display: none;
+  }
+
+  .author-name {
+    display: none;
+  }
+
+  .on-mobile {
+    display: none;
+  }
+
+  .date {
+    display: relative;
+    top: 0;
+    left: -2px;
+  }
+
+  .datelink {
+    display: absolute;
+  }
+
+  .article-text {
+    display: block;
+    padding: 0;
+  }
+
+  .leftbody {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 100%;
+    display: block;
+  }
+
+  .button-text {
+    display: none;
+  }
+
+  .button-image {
+    position: relative;
+    top: 3px;
+  }
+
+  .author-social-wrapper {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .author-social-name {
+    padding: 0;
+  }
+
+  .sidebarimg-wrapper {
+    display: block;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .aboutthisad {
+    margin: 0;
+
+  }
+
+  .sidebar-text {
+    display: none;
+  }
+
+  .most-popular-posts-title {
+    font-size: 2.5rem;
   }
 
 }
