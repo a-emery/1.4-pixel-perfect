@@ -599,3 +599,79 @@ p {
   position: relative;
   top: -1px;
 }
+
+@media (max-width: 480px) {
+  body {
+    width: auto;
+  }
+
+  .banner {
+    height: 210px;
+    overflow: hidden;
+  }
+
+  .heading {
+    position: relative;
+  }
+
+  .logo {
+    margin: auto;
+  }
+
+  .titlebox {
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 25px;
+    left: 0;
+    right: 0;
+    padding-left: 12%;
+  }
+
+  .about-search {
+    position: absolute;
+    margin: auto;
+    display: block;
+    top: 0px;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .search-items {
+    padding: 0;
+  }
+
+  .name {
+    font-size: 0;
+  }
+
+  .bigtitle {
+    font-size: 2.25rem;
+    padding-top: 80px;
+    margin: 0;
+  }
+
+  .subtitle {
+    padding-top: 10px;
+    font-size: 1rem;
+  }
+
+  .body {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+  }
+
+  .article-title {
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+
+  .article-heading {
+    padding: 0;
+  }
+
+}
