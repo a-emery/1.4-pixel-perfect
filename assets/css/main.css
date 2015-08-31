@@ -66,7 +66,6 @@ body {
   padding: 4px 0 0 22px;
   font-family: "Oswald", helvetica, sans-serif;
   font-size: 1.1rem;
-  color: rgba(16, 52, 81, 1);
 }
 
 li {
@@ -81,6 +80,11 @@ p {
 
 .about {
   margin-right: 12px;
+}
+
+.header-link {
+  text-decoration: none;
+  color: rgba(16, 52, 81, 1);
 }
 
 .magnifying-glass {
